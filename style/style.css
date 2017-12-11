@@ -1,0 +1,139 @@
+body{
+    margin: 5%;
+}
+hgroup h1{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+hgroup h2{
+    display: none;
+}
+figure {
+    float: right;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+/* figure img {
+    max-width: 110px;
+} */
+#about h3 {
+    display: none;
+}
+#about p {
+    margin-right: 20%;
+    text-align:justify;
+}
+section {
+    width: 100%;
+    display: table;
+}
+
+            /* 1 section */
+h3{
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 5%;
+    padding-bottom: 6%;
+}
+
+            /* BIG */
+.skills-primary{
+    margin-top: 20px;
+}
+.skills-primary [data-skill="5"] span{
+    background-color: rgb(37, 167, 167);
+    margin-left: 9px;
+    border: 3px solid rgb(37, 167, 167);
+    font-size: 25px;
+    color: white;
+    float: left;
+    display: table;
+    width: 150px;
+
+    
+}
+.skills-primary [data-skill="5"] span::after{
+    content: "  ★★★";
+}
+.skills-primary [data-skill="3"] span{
+    background-color: rgb(37, 167, 167);
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 3px solid rgb(37, 167, 167);
+    font-size: 25px;
+    color: white;
+    float: left;
+    display: table;
+    
+    width: 150px;
+}
+.skills-primary [data-skill="3"] span::after{
+    content: "  ★★";
+}
+.skills-primary [data-skill="1"] span{
+    background-color: rgb(37, 167, 167);
+    border: 3px solid rgb(37, 167, 167);
+    font-size: 25px;
+    color: white;
+    display: table;
+    
+    width: 150px;
+}
+.skills-primary [data-skill="1"] span::after{
+    content: "  ★";
+}
+
+                /* SMULL */
+.skills-secondary{
+    margin-top: 6px;
+}
+.skills-secondary [data-skill="9"] span{
+    background-color: rgb(37, 167, 167);
+
+    margin-left: 9px;
+    border: 3px solid rgb(37, 167, 167);
+    font-size: 15px;
+    color: white;
+    float: left;
+    display: table;
+    width: 150px;
+}
+.skills-secondary [data-skill="9"] span::after{
+    content: "  ★★★★★";
+}
+.skills-secondary [data-skill="5"] span{
+    background-color: rgb(37, 167, 167);
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 3px solid rgb(37, 167, 167);
+    font-size: 15px;
+    color: white;
+    float: left;
+    display: table;
+    width: 150px;
+}
+.skills-secondary [data-skill="5"] span::after{
+    content: "  ★★★";
+}
+.skills-secondary [data-skill="7"] span{
+    background-color: rgb(37, 167, 167);
+    
+    border: 3px solid rgb(37, 167, 167);
+    font-size: 15px;
+    color: white;
+    display: table;
+    width: 150px;
+}
+.skills-secondary [data-skill="7"] span::after{
+    content: "  ★★★★";
+}
+
+            /* 2 section */
+/* 
+#competencies h3{
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 5%;
+    padding-bottom: 6%;
+} */
